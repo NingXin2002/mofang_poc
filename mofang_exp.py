@@ -86,7 +86,7 @@ def main():
             """
     print(banner)
 
-    parse = argparse.ArgumentParser(description="华夏 ERPV3.3 信息泄漏漏洞",
+    parse = argparse.ArgumentParser(description="魔方网表存在文件上传漏洞",
                                     formatter_class=argparse.RawDescriptionHelpFormatter,
                                     epilog=textwrap.dedent('''example:
         python3 mofang_exp.py.py -u http://xxxx.xxxx.xxxx.xxxx
